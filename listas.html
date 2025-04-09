@@ -3,73 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 1 FrontEnd</title>
+    <title>Revisão de Front End</title>
 </head>
 <body>
-    <h1>Listas</h1>
-    
-    <h2>Listas Ordenadas</h2>
+    <H1>Olá, esta página serve como forma de revisão para o Cheakpoint 1 de HTML5</H1>
+    <br><br>
+    <h2>Listas</h2>
+    <!-- LISTA ORDENADA - ol -->
+    <!-- LISTA NÃO ORDENADA - ul -->
+    <!-- tipo de ordenação - type -->
+    <!-- itens da lista - li -->
+    <h3>Listas Ordenadas</h3>
     <ol type="A">
-        <li>Melancia</li>
-        <li>Maça</li>
-        <li>Morango</li>
-        <ol>
-            <li>Vermelho</li>
-            <li>Doce</li>
-        </ol>
+        <li>Naruto</li>
+        <li>Dragon Ball</li>
+        <li>Jujustu Kaisen</li>
     </ol>
 
-    <h2>Listas Não Ordenadas</h2>
-    <ul type="square">
-        <li>Manga</li>
-        <li>Laranja</li>
-        <ul>
-            <li>Delicioso</li>
-        </ul>
-        <li>Melão</li>
-        <ol>
-            <li>Amarelo</li>
-            <li>Lindo</li>
-        </ol>
-    </ul>
-
-    <h2>Lista de Descrição</h2>
-    <dl>
-        <dt>Abacaxi</dt>
-        <dd>É uma fruta ácida e espinhuda</dd>
-        <dt>Limão</dt>
-        <dd>É uma fruta azeda e tem uma cor verde</dd>
-    </dl>
-
-    <H1>Criando Links</H1>
+    <h3>Listas Não Ordenadas</h3>
     <ul>
-        <h2>Links Relativos</h2>
-        <li><a href="listanaoordenada.html" target="_blank">Lista Ordenada</a></li>
-        <li><a href="listanaoordenada.html" target="_blank">Lista não Ordenada</a></li>
-        <li><a href="listadedescricao.html" target="_blank">Lista de Descrição</a></li>
-
-        <h2>Links Absolutos</h2>
-        <li><a href="http://google.com.br" target="_blank">Pesquisar</a></li>
-
-        <h2>Links para a própria página</h2>
-        <li> <a href="#info1">Informática</a></li>
-        <li><a href="#software">Engenharia de Software</a></li>
+        <li>Placa de Video</li>
+        <li>Processador</li>
+        <li>Placa Mãe</li>
     </ul>
 
-    <a name=" info1" title="Definição de Informática">
-        <H2> Informática</H2>
-    </a>
-        <p> Informática é o termo usado para designar um grande conjunto de conhecimentos relativos ao armazenamento, processamento, coleta e transmissão de informação digital. A palavra informática, no entanto, deriva do termo alemão “informatika”, criado em 1956 pelo cientista da computação Karl Steinbuch. O sentido dessa expressão remete à ideia de processamento da informação. Alguns profissionais da área atribuem a origem da palavra “informática” à junção de duas palavras: informação e automática, já que a informática é uma ciência responsável pelo processamento automático de informação.
-        </p>
+    <h3>Lista de Descrição</h3>
+    <!-- LISTA DE DESCRIÇÃO - dl -->
+    <!-- Titulo da descrição - dt -->
+    <!-- Descrição - dd -->
+    <dl>
+        <dt>Como ser lindo?</dt>
+        <dd>A resposta para essa pergunta é fácil, pergunte ao Kaike. Pois ele é um experte da área.</dd>
+        <dt>Como ser Gostoso?</dt>
+        <dd>Outra pergunta simples, e a resposta é pergunte ao Kaike.</dd>
+    </dl>
+    <br>
+    <h1>Desafios de lista</h1>
+    <p> Crie um título principal para a página, tipo: "Time dos Sonhos dos Animes".
+        
+        Faça uma lista ordenada com 5 personagens de animes que você escolheria para montar um time (pode ser por ordem de poder, preferência etc.).
+        
+        Depois, crie uma lista não ordenada com os itens que esse time levaria para a batalha (ex: kunai, esferas do dragão, ramen... use a criatividade!).
+        
+        Por fim, faça uma lista de descrição explicando por que escolheu 3 desses personagens. Cada personagem deve ter uma explicação engraçada, épica ou criativa.
+        
+        Use ao menos dois atributos type diferentes nas listas ordenadas (ex: type="A", type="1").</p>
 
-        <a name="software" title="Engenharia de Software">
-            <H2>Engenharia de Software</H2>
-        </a>
-        <p>Engenharia de software é uma área interdisciplinar de conhecimento, que agrega ciências exatas e humanas, e.g., engenharia e administração. A área rege o processo produtivo de sistemas baseados em rotinas computacionais. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatem est consequuntur. Saepe, minus. Commodi, iusto cum! Totam quaerat ut cupiditate laboriosam minima a! Recusandae delectus eum perferendis officiis sed!</p>
-
-        <h2>Link de Email</h2>
-        <a href="mailto: kaike.cyw@gmail.com">Link do administrador</a>
-
-    <a href="#">Voltar ao topo da página</a>
+    <h2>Resolução do Desafio</h2>
+    <h3>Time dos Sonhos dos Animes</h3>
+    <h4>Personagens Escolhidos</h4>
+    <ol type="A">
+        <li>Goku</li>
+        <li>Naruto</li>
+        <li>Minato</li>
+        <li>Luffy</li>
+        <li>Shikamru</li>
+    </ol>
+    <h4>Itens para batalha</h4>
+    <ul>
+        <li>Estoque de Kunais</li>
+        <li>Colchão</li>
+        <li>Comida</li>
+    </ul>
+    <dl>
+        <dt>Goku</dt>
+        <dd>Foi escolhido porquê gosta de brigar e ia se esforçar</dd>
+        <dt>Minato</dt>
+        <dd>Rápido pra porra</dd>
+        <dt>Shikamaru</dt>
+        <dd>Planejar a estratégia e guiar pra vitória</dd>
+    </dl>
 </body>
 </html>
