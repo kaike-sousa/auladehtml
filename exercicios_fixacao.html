@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Exercicios</title>
+</head>
+<body>
+    <h1 id="topo">Exercicio de Tabela HTML Faculdade</h1>
+    <table border="1" cellpading="100" align="center" width="600" >
+        <tr align="center">
+            <th>Segmento</th>
+            <th>Subsegmento</th>
+            <th>Cliente</th>
+            <th>Qnt de Licenças</th>
+        </tr> 
+        <tr align="center">
+            <td rowspan="4">Tecnologia</td>
+            <td rowspan="2">Software</td>
+            <td rowspan="1">Empresa A</td>
+            <td>100</td>
+        </tr>
+        <tr align="center"> 
+            <td rowspan="1">Empresa B</td>
+            <td>150</td>
+        </tr> 
+        <tr align="center">
+            <td rowspan="2">Hardware</td>
+            <td>Empresa C</td>
+            <td>200</td>
+        </tr>
+        <tr align="center">
+            <td>Empresa D</td>
+            <td>50</td>
+        </tr>
+
+        <tr align="center">
+            <td rowspan="4">Varejo</td>
+            <td>Eletrônicos</td>
+            <td>Empresa E</td>
+            <td>300</td>
+        </tr>
+        <tr width="100" align="center">
+            <td>Vestuário</td>
+            <td>Empresa F</td>
+            <td>120</td>
+        </tr width="100">
+        <tr align="center">
+            <td rowspan="2">Supermercados</td>
+            <td>Empresa G</td>
+            <td>80</td>
+        </tr>
+        <tr width="100" align="center">
+            <td>Empresa H</td>
+            <td>200</td>
+        </tr>
+        <tr align="center">
+            <td rowspan="4">Saúde</td>
+            <td rowspan="3">Hospitais</td>
+            <td>Empresa I</td>
+            <td>80</td>
+        </tr>
+        <tr align="center">
+            <td>Empresa J</td>
+            <td>180</td>
+        </tr>
+        <tr align="center">
+            <td>Empresa K</td>
+            <td>250</td>
+        </tr>
+        <tr align="center">
+            <td>Planos de saúde</td>
+            <td>Empresa L</td>
+            <td>150</td>
+        </tr>
+        </table>
+
+    <br>
+
+    <h1>Revisão de Tabela com o Chat</h1>
+    <table border="1" cellpadding="10" align="center" width="500">
+        <tr align="center">
+            <th rowspan="2">Nome</th>
+            <th colspan="2">Informações</th>
+        </tr>
+        <tr align="center">
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr align="center">
+            <td>Kaike</td>
+            <td>17</td>
+            <td>São Paulo</td>
+        </tr>
+    </table>    
+
+    <br><br>
+
+    <h1>Exercicio de lista</h1>
+    <p> Crie um título principal para a página, tipo: "Time dos Sonhos dos Animes".
+        
+        Faça uma lista ordenada com 5 personagens de animes que você escolheria para montar um time (pode ser por ordem de poder, preferência etc.).
+        
+        Depois, crie uma lista não ordenada com os itens que esse time levaria para a batalha (ex: kunai, esferas do dragão, ramen... use a criatividade!).
+        
+        Por fim, faça uma lista de descrição explicando por que escolheu 3 desses personagens. Cada personagem deve ter uma explicação engraçada, épica ou criativa.
+        
+        Use ao menos dois atributos type diferentes nas listas ordenadas (ex: type="A", type="1").</p>
+
+    <h3>Resolução</h3>
+    <h3>Time dos Sonhos dos Animes</h3>
+    <h4>Personagens Escolhidos</h4>
+    <ol type="A">
+        <li>Goku</li>
+        <li>Naruto</li>
+        <li>Minato</li>
+        <li>Luffy</li>
+        <li>Shikamru</li>
+    </ol>
+    <h4>Itens para batalha</h4>
+    <ul>
+        <li>Estoque de Kunais</li>
+        <li>Colchão</li>
+        <li>Comida</li>
+    </ul>
+    <dl>
+        <dt>Goku</dt>
+        <dd>Foi escolhido porquê gosta de brigar e ia se esforçar</dd>
+        <dt>Minato</dt>
+        <dd>Rápido pra porra</dd>
+        <dt>Shikamaru</dt>
+        <dd>Planejar a estratégia e guiar pra vitória</dd>
+    </dl>
+
+    <br><br>
+
+    <h1>Exercicio de Links</h1>
+    <h3>Link Externo/ Link Absoluto</h3>
+    <a href="https://youtu.be/rmHT8LG_PfI?si=iFSITba0t7ud4td-" target="_blank">Video do Coringa</a>
+
+    <h3>Link Interno / Link Relativo</h3>
+    <a href="./formularios.html" target="_blank">Formulários</a>
+
+    <h3>Link Para Própria Página</h3>
+    <!-- coloque o id onde deseja ir, coloquei no h1 de tabelas, que é o topo da página  -->
+    <a href="#topo">Inicio da Página</a>
+
+    <br><br>
+
+    <h1>Exercicio de Formularios</h1>
+    <form>
+        Nome Completo <input type="text" name="nome" placeholder="Digite o seu nome"><br>
+        Email <input type="email" name="email" id="email" placeholder="Digite o seu email"> <br>
+        Senha <input type="password" name="senha" id="senha" placeholder="Digite a sua senha"> <br><br>
+
+        Genêro: <br>
+        <label for="masc">Masculino</label>
+        <input type="radio" name="genero"> 
+        <label for="fem">Feminino</label>
+        <input type="radio" name="genero"> <br><br>
+
+        Data de Nascimento <br>
+        <input type="date" name="data" id="data"> <br><br>
+
+        Área de Interesse <br>
+        <select name="area" id="area">
+            <optgroup>Área de Atuação</optgroup>
+            <option value="ti">Backend</option>
+            <option value="ti" selected>FrontEnd</option >
+            <option value="ti">Design</option> 
+        </select> <br><br>
+
+        Receber Novidades
+        Deseja receber atualizações? <br>
+        <label for="sim">Sim</label>
+        <input type="checkbox" name="sim" id="sim">
+        <label for="nao">Não</label>
+        <input type="checkbox" name="sim" id="sim"> <br><br>
+
+        Comentáio <br>
+        <textarea name="comentario" rows="9" cols="300" placeholder="digite seu comentario"></textarea> <br><br>
+
+        Upload de foto do perfil<br>
+        <input type="file" name="anexar" id="anexar"> <br><br>
+
+        Enviar
+        <input type="submit" value="Enviar"> <br>
+        Reset
+        <input type="reset" value="Resetar">
+    </form>
+
+</body>
+</html>
