@@ -1,0 +1,89 @@
+/* SELETORES */
+/* SELETORES  DE ELEMENTO, só colocar o elemento e abrir parenteres */
+body{
+    color: aqua;
+}
+
+/* SELETORES DE CLASSE, coloca o ponto, depois o elemento e abre parenteses */
+.destaque{
+    color: beige;
+}
+
+/* SELETORES DE ID, coloca a #, depois o elemento e abre parenteses */
+#cabecalho{
+    background-color: aliceblue;
+}
+
+/* SELETORES DESCENTENDES */
+nav a{
+    color: black;
+}
+
+/* PSEUDOCLASSES */
+a:hover{
+    color: brown;
+}
+
+
+/* CONFIGURAÇÕES PADRÕES DO CSS */
+/* TEXTOS */
+texto-exemplo{
+    color: black; /* cor do texto */
+    font-size: 16px; /* tamanho da fonte */
+    font-weight: bold; /* peso da fonte */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: underline; /* decoração do texto */
+    line-height: 1.5; /* espaçamento entre linhas */
+    font-family: 'Courier New', Courier, monospace; /* tipo da fonte */
+}
+
+/* MODELOS DE BOX */
+.box-exemplo{
+    width: 300px; /* largura */
+    height: 200px; /* altura */
+    padding: 20px; /* espaçamento interno*/
+    margin: 10px; /* espaçamento externo */
+    border: 2px solid rgb(109, 131, 202); /* borda */
+    background-color: black; /* Cor de fundo do box */
+}
+
+/* POSICIONAMENTO */
+.posicionamento-exemplo{
+    display: block; /* tipo de exibição */
+    position: relative; /* posicionamnto */
+    top: 10px; /* deslocamento, pode ser direita, esquerda, pra cima, pra baixo */
+    left: 10px; /* deslocamento, pode ser direita, esquerda, pra cima, pra baixo */
+    float: right;/* flutuação */
+    clear: both; /* limpar os floats */
+}
+
+/* UNIDADES ABSOLUTAS (fixas) */
+.pixel-exemplo{
+    font-size: 16px;
+}
+
+/* UNIDADES RELATIVAS */
+.percentual-exemplo{
+    width: 50%;
+}
+
+/* UNIDADE EM*/
+.em-exemplo{
+    font-size: 1.2em; /*  é uma unidade relativa ao elemento pai */
+}
+
+.rem-exemplo{
+    font-size: 1.2rem; /*  é uma unidade relativa ao elemento raiz */
+}
+
+.viweport-exemplo{
+    width: 50vw; /* 50% da largura do viewport */
+    height: 30vh; /* 30% da altura do viewport */
+}
+
+/* CONFIGURAÇÃO PARA TODOS OS ELEMENTOS */
+h1{
+    color: blueviolet;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
