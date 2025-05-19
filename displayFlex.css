@@ -1,0 +1,140 @@
+/* Eslios Globais */
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    color: black;
+    line-height: 1.6;
+}
+
+/* Estilos para as sessões da página */
+.secao{
+    padding: 60px 20px;
+}
+
+/* Estilos para o cabeçalho */
+.cabecalho{
+    background-color: rgb(30, 29, 29);
+    color: aliceblue;
+    padding: 15px 20px;
+
+    /* Usando flexbox para alinhar os itens */
+    display: flex;
+    justify-content: space-between; /* Espaçamento dos itens na horizontal, colocando espaço entre eles */
+    align-items: center;
+}
+
+/* Container interno do cabeçalho para limitar a largura do conteudo da pagina */
+.cabecalho-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0;
+    width: 100%;
+}
+
+/* Estilos para o nome do cabeçalho */
+.nome-portfolio{
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* Estilos para a navegação */
+.navegacao ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    /* Utilizando o flexbox para alinhar os itens */
+    display: flex;
+}
+
+.navegacao li {
+    margin-left: 20px;
+}
+
+.navegacao a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navegacao a:hover{
+    color: azure;
+}
+
+/* Estilos para a seção sobre mim */
+.sobre-conteiner{
+    max-width: 1200px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.foto-perfil {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.texto-sobre h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para Seção Habilidades */
+.habilidades{
+    background-color: #eee;
+}
+
+.habilidades-container{
+    max-width: 1200px;
+    margin: 0;
+    text-align: center;
+}
+
+.lista-habibilidades{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a proxima linha se não houver espaço */
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.lista-habibilidades li {
+    background-color: rgb(63, 63, 63);
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.projetos-container{
+    max-width: 1200px;
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+
+    /* Usando o CSS Grid para criar um layou degrade para os objetos */
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); /* Cria colunas com uma largura minima de 300 px e maxima de 1 fraço de espaço disponivel */
+    gap: 20px;
+}
+
+.projeto{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.projeto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
